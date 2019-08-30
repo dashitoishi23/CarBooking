@@ -1,0 +1,15 @@
+version: '3'
+services:
+  client:
+    container_name: cli
+    image: cli
+    build: ./client
+    ports:
+      - 3000:3000
+  exp-app:
+    container_name: exp
+    image: exp
+    build: ./
+    command: npm run dev
+    ports:
+      - 5000:5000

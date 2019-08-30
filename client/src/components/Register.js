@@ -53,7 +53,7 @@ class Register extends Component{
                 <input type="text" class="form-control"
                 name="name"
                 onChange={this.onChange}
-                 id="exampleInputPassword2" placeholder="Password" required/>
+                 id="exampleInputPassword2" placeholder="Name" required/>
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Password</label>
